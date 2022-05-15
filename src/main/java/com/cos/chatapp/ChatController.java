@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 
 @RequiredArgsConstructor
 @RestController //데이터 리턴 서버
+@CrossOrigin
 public class ChatController {
     private final ChatRepository chatRepository;
 
